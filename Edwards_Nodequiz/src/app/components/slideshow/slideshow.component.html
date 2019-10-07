@@ -1,0 +1,15 @@
+<div class="container">
+  <!-- Quiz button -->
+  <div class="quizButton">
+    <button routerLink="/tests/{{slideshow}}">Take Test</button>
+    <button routerLink="/">Back</button>
+  </div>
+  <!-- Slide group -->
+  <div class="slides">
+    <p-carousel [value]="presentationSlides" numVisible="1">
+      <ng-template let-item pTemplate="item">
+        <img style="width:40%;" src="./assets/{{selection}}/{{item.image}}">
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>
