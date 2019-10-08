@@ -1,4 +1,12 @@
-const mongoose = require("mongoose");
+/*
+============================================
+; Title: NodeQuiz
+; Author: Professor Krasso
+; Modified by: Alan Edwards
+; Date: Oct 6 2019
+; Description: NodeQuiz
+;===========================================
+*/const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 let employeeResultsSchema = new Schema({
